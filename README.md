@@ -7,10 +7,10 @@ This project uses **MediaPipe**, **OpenCV**, and **pyautogui** to create a hand 
 # Setup installation and required dependencies
  1) Ensure python 3.10 or higher is installed in your system.
  2) Install dependencies.
-  pip install mediapipe \n
-  pip install pyautogui \n
-  pip install opencv-python \n
-  pip install numpy \n
+  pip install mediapipe <br>
+  pip install pyautogui <br>
+  pip install opencv-python <br>
+  pip install numpy <br>
  3) Check if pip dependency is succesfully installed or not.
   pip list (check that package in the list.)
  4) That's it setup is done, now you can run the code.
