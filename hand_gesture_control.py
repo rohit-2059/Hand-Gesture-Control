@@ -234,7 +234,7 @@ while True:
             
             hand_label = hand_info.classification[0].label
 
-            # Handle cursor control with right hand
+            # Handle cursor control 
             if hand_label == "Right":
                 control_cursor(hand_landmarks)
                 media_action = handle_media_controls(hand_landmarks)
@@ -244,7 +244,7 @@ while True:
                 if volume_action:
                     action_message = volume_action
    
-            # Handle scrolling with left hand
+            # Handle scrolling 
             if hand_label == "Left":
                 scroll_action = handle_scroll(hand_landmarks, hand_label)
                 if scroll_action:
