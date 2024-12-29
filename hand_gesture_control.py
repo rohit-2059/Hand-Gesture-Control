@@ -124,7 +124,7 @@ def handle_click():
         last_click_time = current_time
         return True
     return False
-# [Previous imports and initial setup remain the same until cursor control function]
+
 
 def control_cursor(hand_landmarks):
     """Enhanced cursor control with improved smoothing and boundary protection."""
@@ -168,7 +168,7 @@ def control_cursor(hand_landmarks):
                 cursor_y = screen_height // 2
                 pyautogui.moveTo(cursor_x, cursor_y)
 
-# [Rest of the code remains the same]
+
 
 def handle_media_controls(hand_landmarks):
     """Handle media playback controls."""
